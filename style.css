@@ -32,14 +32,14 @@ body {
 }
 
 .heroImage {
-    padding: 2.5rem;
+    padding: 4rem;
 }
 
 .heroImage img {
-    border-radius: 6rem;
-    box-shadow: 10px 10px #000;
-    width: 100%;
-    height: auto;
+    border-radius: 10rem;
+    box-shadow: 10px 10px #9BA17B;
+    width: 50%;
+    height: 100%;
 }
 
 .heroText {
@@ -76,13 +76,13 @@ body {
     font-weight: 700;
     color: #FAD6A5;
     text-decoration: none;
-    box-shadow: 8px 8px 4px #000;
+    box-shadow: 8px 8px 4px #9BA17B;
 }
 
 .button:hover {
     background-color: #FAD6A5;
-    color: #FAD6A5;
-    transform: scale(1.5);
+    color: #61764B;
+    transform: scale(3);
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
@@ -101,8 +101,10 @@ body {
     text-align: center;
     border: 1px solid #9277AC;
     border-radius: 1rem;
-    box-shadow: 10px 10px 5px #000;
+    box-shadow: 10px 10px 5px #9BA17B;
 }
+
+
 
 .projectCard img {
     width: 100%;
@@ -119,6 +121,13 @@ margin: 1rem 0;
 .projectCard p {
     font-size: 1rem;
     font-weight: 400;
+}
+
+.projectCard:hover {
+    background-color: #FAD6A5;
+    color: #61764B;
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .projectIcons {
