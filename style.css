@@ -38,7 +38,7 @@ body {
 .heroImage img {
     border-radius: 10rem;
     box-shadow: 10px 10px #9BA17B;
-    width: 50%;
+    width: 125%;
     height: 100%;
 }
 
@@ -57,6 +57,7 @@ body {
 
 .heroTextTop {
     padding: 1rem;
+    
 }
 
 .heroTextBottom{
@@ -172,7 +173,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0.8rem;
     height: 80vh;
 }
 
