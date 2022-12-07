@@ -42,6 +42,7 @@ body {
     height: 100%;
 }
 
+
 .heroText {
     font-size: 0.7rem;
     padding-bottom: 2rem;
@@ -108,10 +109,11 @@ body {
 
 
 .projectCard img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 3rem;
-margin: 1rem 0;
+    margin: 1rem 0;
+    filter: opacity(80%);
 }
 
 .projectCard h2{
@@ -128,6 +130,7 @@ margin: 1rem 0;
     background-color: #FAD6A5;
     color: #61764B;
     transform: scale(1.1);
+    transition:1s;
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
